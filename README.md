@@ -952,6 +952,9 @@ const button = {
 
 document.getElementById("btn").addEventListener("click", button.click.bind(button))
 // Without bind, `this` would be the button element, not our `button` object
+
+Still not clear then please refer Notes 👉[call, apply & bind](this keyword/Notes.md)
+
 ```
 ### *Quick Summary Table*
 |**Method** | **Executes Now?** | **Argument Style** | **Returns**|
